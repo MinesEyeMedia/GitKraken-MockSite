@@ -1,0 +1,91 @@
+/*
+Custom CSS
+=============
+AUTHOR:  JACOB MINES | MINES EYE MEDIA
+UPDATED: May 2018
+NOTES: ADDITIONAL NOTES.
+*/
+
+/* ? Color References */
+/* background: #1abc9c;
+background: #3498db;
+background: #9b59b6;
+background: #34495e;
+background: #f1c40f;
+background: #e67e22;
+background: #e74c3c;
+background: #bdc3c7;
+background: #2ecc71;
+background: #16a085; */
+
+
+/*------------------------------------*\
+   #MASTER OVERIDES & DECLARATIONS
+/*------------------------------------*/
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/*------------------------------------*\
+   #LAYOUT
+/*------------------------------------*/
+/* TODO: Visual Markers */
+.master--container-marker {
+    border: 2px solid #e74c3c;
+}
+
+.master--row-marker {
+    border: 2px dashed #f1c40f;
+}
+
+.marker1 {
+    border: 1px dotted #3498db;
+}
+
+.marker2 {
+    border: 1px dotted #e67e22;
+}
+
+.marker3 {
+    border: 1px dotted #34495e;
+}
+/* TODO: End Visual Markers */
+
+
+
+/*------------------------------------*\
+   #TYPOGRAPHY
+/*------------------------------------*/
+/* * Font Stack - Uncomment & Use * */
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+
+
+/*------------------------------------*\
+   #NAVBAR
+/*------------------------------------*/
+
+/*------------------------------------*\
+   #SECTION-TITLE
+/*------------------------------------*/
+
+/*------------------------------------*\
+   #MEDIA QUERIES
+/*------------------------------------*/
+
+/* Portrait & landscape phone */
+
+@media (max-width: 480px) {}
+
+
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 768px) {}
+
+
+/* Large desktop */
+
+@media (min-width: 1200px) {}
