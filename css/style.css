@@ -50,7 +50,40 @@ body {
 .marker3 {
     border: 1px dotted #34495e;
 }
+
 /* TODO: End Visual Markers */
+
+/* TODO: Main Site Colors */
+/* rgb(20, 20, 34); - Main Background */
+/* rgb(230, 84, 37) - Solid Orange Button:hover */
+/* rgb(32, 150, 139) - Main Header */
+/* #20968b - Main Header Hex */
+/* rgb(208, 208, 210) - Main Text */
+/* #d0d0d2 - Main Text in Hex */
+/* rgb(83, 83, 93) - Text Outline?? */
+/* #262633 - blockquote background */
+/* #c5eae7 - 'Seamless Intergration' FA Icon Color */
+/* ?ProFeatures Colors */
+/* #45c3ec - Pro Features Header */
+/* #c5eae7 - Pro Features Text (same as SeemlessInt FA Color) */
+/* rgba(69,195,236,.8) - ProFeat Button BG */
+/* #45c3ec - ProFeat Button Outline & :hover */
+/* #e0cd61 - 7 day trial link:hover:focus */
+/* ?Enterprise Colors */
+/* #69e2b3 - Header Text */
+/* #c1eadb - Para Text */
+/* rgba(105,226,179,.8) - Enterprise Button BG */
+/* #69e2b3 - Enterprise Button Outline & :hover */
+/* ?Footer Colors */
+/* #d0d0d2 - Footer Text */
+/* *** */
+/* rgb(249, 239, 193) - Link NON-HOVER */
+/* #e0cd61 - Link:hover:focus */
+
+
+body {
+    background: rgb(20, 20, 34)
+}
 
 
 

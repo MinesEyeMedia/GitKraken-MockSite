@@ -9,11 +9,15 @@ I have decided to first focus on the creation of the GitKracken site for the spe
 For reference: https://www.gitkraken.com/git-client
 
 Commit #2 - Initial Project Structure setup.
-Directories sorted.
-File locations (hrefs) properly directed.
-Bootstrap/MDB tested.
-FontAwesome tested.
-Basic CSS template setup, visual markers setup.
-JavaScript/jQuery tested.
-=> Ready to move forward.
-First //push// to Github. <- Development Branch.
+* Directories sorted.
+* File locations (hrefs) properly directed.
+* Bootstrap/MDB tested.
+* FontAwesome tested.
+* Basic CSS template setup, visual markers setup.
+* JavaScript/jQuery tested.
+* => Ready to move forward.
+* First //push// to Github. <- Development Branch.
+
+Commit #3 - Basic HTML site specific skeleton written (head/sections/footer)
+* Added master color reference to style.css file.
+* Modified Readme.md
