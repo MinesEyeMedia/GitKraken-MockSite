@@ -35,7 +35,11 @@
     <!-- FONTS & WEB-ICONS
    ============================================================ -->
     <!-- Google Fonts (Roboto, Open Sans, Lato & Raleway [Normal 400] -->
-    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Raleway|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:400,300|Raleway|Roboto" rel="stylesheet">
+
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet"> -->
+
     <!-- Font Awesome (v.5.4.1) CDN & Fallback -->
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
         crossorigin="anonymous"> -->
@@ -85,24 +89,99 @@
 
 <body>
     <!-- ! WE GET SIGNAL. MAIN SCREEN TURN ON. -->
-    <header>
-        <nav>
-            navbar goes here
-        </nav>
-    </header>
-    <!-- ?/HEADER -->
+    <nav>
+        navbar goes here
+    </nav>
 
     <!-- TODO: MAIN APP FEATURES -->
-    <section id="main-hero">
-    </section>
-    <!-- ?/MAIN-HERO -->
+    <header>
+        <section id="main-hero">
+            <div class="container-fluid marker2 text-center">
+                <div>
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <i class="fab fa-gitkraken" id="mainLogo"></i>
+                        <h1 class="mb-0 ml-3 mt-3">GitKraken</h1>
+                    </div>
+                    <p class="mt-4">See how our Git client can make you a more productive Git user!</p>
+                    <div class="col-12">
+                        <button class="btn btn-primary mt-3" id="btn-hero">Watch Video Now <i class="far fa-play-circle"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ?/MAIN-HERO -->
+    </header>
+    <!-- ?/HEADER    -->
+
 
     <main>
-        <section id="big-gif-video">
+        <section id="big-gif-video" class="section-sep">
+            <div class="container master-container-marker">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                        <img src="/assets/img/gk-merge-edit.gif" alt="Animated gif showing GitKraken features." class="img-fluid">
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- ?/BIG-GIF-VIDEO -->
 
-        <section id="experience">
+        <section id="experience" class="section-sep">
+            <div class="container master-container-marker">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h5 class="feat-title">An Intuitive Experience</h5>
+                    </div>
+                </div>
+
+                <div class="row" id="exp-quote">
+                    <div class="col-12 d-flex justify-content-center">
+                        <blockquote id="exp-quote-box">
+                            <p>
+                                <em>
+                                    "Being an enthusiast for intuitive and seamless UIs, I was immediately drawn to
+                                    this tool. When you start diving deeper, you realize the remarkable user
+                                    experience
+                                    that the developers at Axosoft have created."
+                                </em>
+                            </p>
+
+                        </blockquote>
+                    </div>
+                </div>
+
+                <div class="row mb-5">
+                    <div class="col-12">
+                        <p class="my-1 text-center">
+                            <em>
+                                <strong>
+                                    Michael C<br>
+                                    Sensa Technologies
+                                </strong>
+                            </em>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <img src="https://www.gitkraken.com/img/features/visual.svg" alt="" class="img-fluid feat-img">
+                        <h5 class="feat-title">Visual Interactions</h5>
+                        <p>Branching, merging & commit history</p>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <img src="https://www.gitkraken.com/img/features/butler-keif.svg" alt="" class="img-fluid feat-img">
+                        <h5 class="feat-title">Cross-Platform Consistency</h5>
+                        <p>Run natively on Windows, Mac and Linux</p>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <img src="https://www.gitkraken.com/img/features/drag-drop.svg" alt="" class="img-fluid feat-img">
+                        <h5 class="feat-title">Drag & Drop</h5>
+                        <p>Merge, rebase, reset, push & more</p>
+                    </div>
+                </div>
+
+
         </section>
         <!-- ?/EXPERIENCE -->
 
@@ -132,6 +211,7 @@
         </section>
         <!-- ?/ENTERPRISE-FEATURES -->
     </main>
+    </div>
 
     <!-- TODO: FULL-WIDTH FOOTER HERO/DOWNLOAD CTA -->
     <section id="footer-hero">

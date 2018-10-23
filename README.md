@@ -21,3 +21,8 @@ Commit #2 - Initial Project Structure setup.
 Commit #3 - Basic HTML site specific skeleton written (head/sections/footer)
 * Added master color reference to style.css file.
 * Modified Readme.md
+
+Commit #4 - Basic coding/styling of 'header', 'big-gif-video' & 'experience' sections.
+* Coded/styled master header with video button.
+* Coded/styled big-gif-video intro section.
+* Coded/styled experience section and intro to app features.
