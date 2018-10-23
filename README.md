@@ -1,5 +1,5 @@
 GitKraken Mock Site Design
-v.0.1.0
+v.0.2.0
 
 This will be a mock recreation of the GitKraken website for purposes of learning, using my own custom code, playing around with Bootstrap, the Material Design for Bootstrap (MDB) sub-framework, and some other play and familiarization with processes and technologies that I'm focused on learning.
 
@@ -34,3 +34,6 @@ Commit #6 - Finished the 'large display' version of the site.
 * Finished coding/styling and doing most tweaks for 'large screen' view.
 * Need to play with media queries and tweak for mobile.
 * Main 'Git Client' page complete.
+
+Commit #7 - Updated project to v0.2.0.
+* Merged with master branch and updated Readme.md to version 0.2.0.
