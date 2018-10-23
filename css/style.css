@@ -80,7 +80,7 @@ body {
 /* rgb(249, 239, 193) - Link NON-HOVER */
 /* #e0cd61 - Link:hover:focus */
 
-
+/* ?DEFAULTS */
 body {
     background: rgb(20, 20, 34);
     color: #d0d0d2;
@@ -91,6 +91,7 @@ body {
     border-bottom: 3px solid #262633;
 }
 
+/* ?MAIN HERO - FULL-WIDTH */
 #main-hero {
     /* background: url("https://www.gitkraken.com/img/misc/gk-git-client-hero.jpg") 50% 50% repeat; */
     background-size: auto;
@@ -123,14 +124,15 @@ body {
     background-color: rgb(230, 84, 37) !important;
 }
 
+/* ?EXPERIENCE */
 #experience {
     text-align: center;
     padding-top: 2rem;
 }
 
-#experience h5 {
+/* #experience h5 {
     font-weight: 400;
-}
+} */
 
 #experience p {
     font-weight: 300;
@@ -151,6 +153,7 @@ body {
     margin: 0.5rem;
     font-size: 0.85rem;
     max-width: 550px;
+    line-height: 2;
 }
 
 blockquote p {
@@ -163,10 +166,214 @@ blockquote p {
     margin-top: 2rem;
 }
 
+/* ?BUILT-IN EDITOR */
+#built-in-editor .feat-title {
+    margin-bottom: 1.5rem;
+}
+
 .feat-img {
     max-height: 150px;
 }
 
+#built-in-editor {
+    padding-top: 2rem;
+}
+
+#built-in-editor h6 {
+    color: #d0d0d2;
+    font-weight: 600;
+    font-size: 1.0625rem;
+    padding-bottom: 1rem;
+}
+
+#built-in-editor p {
+    line-height: 1.7rem;
+    font-size: 1.0625rem;
+    letter-spacing: 0.5px;
+}
+
+#builtInEditor-row {
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
+}
+
+#built-in-editor .feat-img {
+    max-height: 75px;
+}
+
+#built-in-editor .small-feats {
+    margin-top: 7rem;
+}
+
+#built-in-editor .small-feats p {
+    color: #20968b;
+    text-align: center;
+    padding-top: 1.75rem;
+    padding-bottom: 3rem;
+}
+
+.small-feats .col-lg-3 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* ?INTEGRATIONS */
+#integrations {
+    padding-top: 2rem;
+}
+
+#integrations h5 {
+    padding-bottom: 1.75rem;
+}
+
+#integrations p {
+    font-size: 1.0625rem;
+    padding-bottom: 1.25rem;
+    /* color: rgb(249, 239, 193); */
+}
+
+#integrations i {
+    color: #c5eae7;
+    padding-bottom: 0.625rem;
+    font-size: 5rem;
+}
+
+p.int-services {
+    color: rgb(249, 239, 193);
+}
+
+/* ?FLUID WORKFLOW */
+#fluid-workflow {
+    margin-top: 2rem;
+}
+
+#fluid-workflow img {
+    max-height: 150px;
+}
+
+#fluid-workflow .pusher {
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+/* ?TOTAL CONTROL */
+#total-control {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#total-control .feat-img {
+    max-height: 75px;
+}
+
+#total-control p {
+    padding-top: 1.25rem;
+    color: #20968b;
+}
+
+#total-control #tier1 {
+    padding-top: 4rem;
+}
+
+#total-control #tier2 {
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+}
+
+/* ?PRO FEATURES */
+#pro-features {
+    margin-top: 2rem;
+}
+
+#pro-features h2 {
+    font-size: 2.8rem;
+    color: #45c3ec;
+    line-height: 54px;
+}
+
+#pro-features .icyblue {
+    color: #c5eae7;
+    /* Icy blue */
+}
+
+#pro-features p {
+    margin-top: 1.875rem;
+}
+
+#pro-features blockquote p {
+    margin-top: 0;
+}
+
+.btn {
+    padding: 0.6875rem 1.5625rem;
+}
+
+.btn-indigo {
+    background-color: rgba(69, 195, 236, .8) !important;
+    border: 2px solid #45c3ec !important;
+    text-transform: none;
+    color: #141422 !important;
+    font-weight: bold;
+}
+
+.btn-indigo:hover {
+    background-color: #45c3ec !important;
+}
+
+#pro-features .download {
+    font-size: 1.0625rem;
+    line-height: 1.7rem;
+}
+
+#pro-features .download a {
+    color: #f9efc1;
+    border-bottom: .1em solid currentColor;
+    font-weight: 600;
+
+}
+
+/* ?ENTERPRISE FEATURES */
+#enterprise-features {
+    margin-top: 2rem;
+    margin-bottom: 3.25rem;
+}
+
+#enterprise-features h2 {
+    font-size: 2.8rem;
+    color: #69e2b3;
+    line-height: 54px;
+    font-weight: 500;
+}
+
+#enterprise-features .ent-feat-green {
+    color: #c1eadb;
+    margin-top: .775rem;
+}
+
+#enterprise-features p {
+    line-height: 1.7rem;
+    font-size: 1.0625rem;
+}
+
+#enterprise-features .pushdown {
+    margin-top: 6.25rem;
+}
+
+#enterprise-features .p-push p {
+    padding-top: 3.25rem;
+}
+
+#enterprise-features .btn-pink {
+    background-color: rgba(105, 226, 179, .8) !important;
+    border: 2px solid #69e2b3 !important;
+    color: #141422 !important;
+    text-transform: none;
+    font-weight: bold;
+}
+
+#enterprise-features .btn-pink:hover {
+    background-color: #69e2b3 !important;
+}
 
 /*------------------------------------*\
    #TYPOGRAPHY
@@ -185,6 +392,10 @@ section h5,
 section h6 {
     color: #20968b;
     font-size: 1.414rem;
+}
+
+h5 {
+    font-weight: 400;
 }
 
 

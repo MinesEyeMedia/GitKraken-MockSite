@@ -26,3 +26,6 @@ Commit #4 - Basic coding/styling of 'header', 'big-gif-video' & 'experience' sec
 * Coded/styled master header with video button.
 * Coded/styled big-gif-video intro section.
 * Coded/styled experience section and intro to app features.
+
+Commit #5 - <Main> coding/styling roughed out.
+* Rough coding and styling of all <main> components.
