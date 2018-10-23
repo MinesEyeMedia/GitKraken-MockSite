@@ -27,5 +27,10 @@ Commit #4 - Basic coding/styling of 'header', 'big-gif-video' & 'experience' sec
 * Coded/styled big-gif-video intro section.
 * Coded/styled experience section and intro to app features.
 
-Commit #5 - <Main> coding/styling roughed out.
-* Rough coding and styling of all <main> components.
+Commit #5 - '< main >' coding/styling roughed out.
+* Rough coding and styling of all '< main >' components.
+
+Commit #6 - Finished the 'large display' version of the site.
+* Finished coding/styling and doing most tweaks for 'large screen' view.
+* Need to play with media queries and tweak for mobile.
+* Main 'Git Client' page complete.

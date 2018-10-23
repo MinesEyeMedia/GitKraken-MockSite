@@ -91,10 +91,66 @@ body {
     border-bottom: 3px solid #262633;
 }
 
+/* ?NAVBAR CONFIG */
+.navbar.scrolling-navbar {
+    padding: .5rem .6875rem;
+}
+
+.primary-color {
+    background-color: rgba(20,20,34,0.9) !important;
+    color: rgba(20,20,34,0.9) !important;
+}
+
+li .nav-link {
+    color: #f9efc1 !important;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-bottom: 3px solid transparent;
+    /* padding: 0.5rem 1.5em; */
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+li .nav-link:hover {
+    color: rgb(224, 205, 97) !important;
+    border-bottom: 3px solid rgba(255,255,255,.3) !important;
+}
+
+.nav-item.active > .nav-link {
+    color: #d8c13a !important;
+    background-color: transparent !important;
+    border-bottom: 3px solid rgba(255, 255, 255, .3) !important;
+}
+
+nav .btn {
+    padding: 0.4375rem 1.25rem;
+}
+
+.dropdown-menu {
+    background-color: transparent;
+    color: white !important;
+}
+
+.navbar .dropdown-menu a {
+    color: #f9efc1 !important;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar .dropdown-menu a:hover {
+    color: rgb(224, 205, 97) !important;
+    border-bottom: 3px solid rgba(255,255,255,.3) !important;
+    background-color: transparent;
+}
+
 /* ?MAIN HERO - FULL-WIDTH */
 #main-hero {
-    /* background: url("https://www.gitkraken.com/img/misc/gk-git-client-hero.jpg") 50% 50% repeat; */
+    background-image: url("/img/gk-git-client-hero.jpg");
     background-size: auto;
+    background-repeat: repeat;
+    background-position: center center;
     padding-top: 7.75rem;
     padding-bottom: 3.375rem;
     color: rgb(249, 239, 193);
@@ -113,15 +169,30 @@ body {
 #main-hero p {
     color: #d0d0d2;
     font-weight: 200;
+    letter-spacing: 0.5px;
+    font-size: 1.0625rem;
 }
 
-#btn-hero {
+.btn-primary {
     background-color: rgba(230, 84, 37, 0.8) !important;
-    border: 1px solid rgb(230, 84, 37);
+    border: 1px solid rgb(230, 84, 37) !important;
+    text-transform: none;
+    font-size: 0.9375rem;
+    font-weight: 500;
 }
 
-#btn-hero:hover {
+.btn-primary:hover {
     background-color: rgb(230, 84, 37) !important;
+}
+
+.btn-primary i {
+    padding-left: 0.5rem;
+}
+
+/* ?BIG-GIF-VIDEO */
+#big-gif-video {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 /* ?EXPERIENCE */
@@ -375,6 +446,121 @@ p.int-services {
     background-color: #69e2b3 !important;
 }
 
+/* ?FULL-WIDTH FOOTER-HERO/CTA */
+#footer-hero {
+    background-image: url('/img/gk-git-client-hero.jpg');
+}
+
+#footer-hero .row {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+#footer-hero h1 {
+    font-size: 2.8125rem;
+    font-weight: 500;
+    padding-bottom: 2rem;
+    color: #20968b;
+}
+
+#footer-hero h4 {
+    font-size: 1.414rem;
+}
+
+#footer-hero .btn-green {
+    background-color: rgba(230, 84, 37, .8) !important;
+    border: 2px solid #e6542b !important;
+    color: #d6dfdf !important;
+}
+
+#footer-hero .btn-green:hover {
+    background-color: #e6542b !important;
+    color: #141422 !important;
+}
+
+#footer-hero .btn-green h4 {
+    text-transform: none;
+    font-size: 1.414rem;
+    font-weight: 600;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+}
+
+#footer-hero .btn-green p {
+    font-size: .85rem;
+    padding: 0.625rem 0 0 0;
+    margin: 0;
+}
+
+#footer-hero .btn-green i {
+    padding-right: 0.625rem;
+}
+
+#footer-hero .seeAllPlatforms {
+    display: block;
+    color: #e6542b;
+    padding-top: 0.25rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+}
+
+#footer-hero .seeAllPlatforms:hover {
+    color: #d6dfdf;
+}
+
+/* ?FOOTER */
+footer .footer-container {
+    padding-top: 1.5rem;
+    border-top: 3px solid rgb(38, 38, 51);
+}
+
+footer ul {
+    line-height: 1;
+    color: #d0d0d2 !important;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.625rem;
+}
+
+footer ul li {
+    display: inline-block;
+    line-height: 1.7rem;
+}
+
+footer ul .footer-link {
+    color: #f9efc1;
+    /* padding: 1rem 1rem !important; */
+    border-bottom: 3px solid transparent;
+    text-decoration: none;
+    margin-left: 1em;
+    margin-right: 1em;
+    min-height: 30px;
+    padding-bottom: 0.3125rem;
+}
+
+footer ul .footer-link:hover,
+footer ul .footer-link:focus {
+    color: rgb(224, 205, 97) !important;
+    border-bottom: 2px solid #393945;
+}
+
+footer .site-footer-copyright {
+    text-align: center;
+    font-size: 0.70rem;
+    line-height: 1;
+    padding-top: 0.3rem;
+}
+
+footer .site-footer-copyright i {
+    font-size: 1rem;
+    color: #e6542b;
+}
+
 /*------------------------------------*\
    #TYPOGRAPHY
 /*------------------------------------*/
@@ -384,10 +570,8 @@ p.int-services {
 /* font-family: 'Lato', sans-serif; */
 /* font-family: 'Raleway', sans-serif; */
 
-section h1,
 section h2,
 section h3,
-section h4,
 section h5,
 section h6 {
     color: #20968b;
