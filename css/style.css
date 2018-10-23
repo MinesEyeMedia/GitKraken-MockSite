@@ -1,0 +1,613 @@
+/*
+Custom CSS
+=============
+AUTHOR:  JACOB MINES | MINES EYE MEDIA
+UPDATED: May 2018
+NOTES: ADDITIONAL NOTES.
+*/
+
+/* ? Color References */
+/* background: #1abc9c;
+background: #3498db;
+background: #9b59b6;
+background: #34495e;
+background: #f1c40f;
+background: #e67e22;
+background: #e74c3c;
+background: #bdc3c7;
+background: #2ecc71;
+background: #16a085; */
+
+
+/*------------------------------------*\
+   #MASTER OVERIDES & DECLARATIONS
+/*------------------------------------*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+/*------------------------------------*\
+   #LAYOUT
+/*------------------------------------*/
+/* TODO: Visual Markers */
+.master-container-marker {
+    border: 2px solid #e74c3c;
+}
+
+.master--row-marker {
+    border: 2px dashed #f1c40f;
+}
+
+.marker1 {
+    border: 1px dotted #3498db;
+}
+
+.marker2 {
+    border: 1px dotted #e67e22;
+}
+
+.marker3 {
+    border: 1px dotted #34495e;
+}
+
+/* TODO: End Visual Markers */
+
+/* TODO: Main Site Colors */
+/* rgb(20, 20, 34); - Main Background */
+/* rgb(230, 84, 37) - Solid Orange Button:hover */
+/* rgb(32, 150, 139) - Main Header */
+/* #20968b - Main Header Hex */
+/* rgb(208, 208, 210) - Main Text */
+/* #d0d0d2 - Main Text in Hex */
+/* rgb(83, 83, 93) - Text Outline?? */
+/* #262633 - blockquote background */
+/* #c5eae7 - 'Seamless Intergration' FA Icon Color */
+/* ?ProFeatures Colors */
+/* #45c3ec - Pro Features Header */
+/* #c5eae7 - Pro Features Text (same as SeemlessInt FA Color) */
+/* rgba(69,195,236,.8) - ProFeat Button BG */
+/* #45c3ec - ProFeat Button Outline & :hover */
+/* #e0cd61 - 7 day trial link:hover:focus */
+/* ?Enterprise Colors */
+/* #69e2b3 - Header Text */
+/* #c1eadb - Para Text */
+/* rgba(105,226,179,.8) - Enterprise Button BG */
+/* #69e2b3 - Enterprise Button Outline & :hover */
+/* ?Footer Colors */
+/* #d0d0d2 - Footer Text */
+/* *** */
+/* rgb(249, 239, 193) - Link NON-HOVER */
+/* #e0cd61 - Link:hover:focus */
+
+/* ?DEFAULTS */
+body {
+    background: rgb(20, 20, 34);
+    color: #d0d0d2;
+}
+
+.section-sep {
+    padding-bottom: 1.7rem;
+    border-bottom: 3px solid #262633;
+}
+
+/* ?NAVBAR CONFIG */
+.navbar.scrolling-navbar {
+    padding: .5rem .6875rem;
+}
+
+.primary-color {
+    background-color: rgba(20,20,34,0.9) !important;
+    color: rgba(20,20,34,0.9) !important;
+}
+
+li .nav-link {
+    color: #f9efc1 !important;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-bottom: 3px solid transparent;
+    /* padding: 0.5rem 1.5em; */
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+li .nav-link:hover {
+    color: rgb(224, 205, 97) !important;
+    border-bottom: 3px solid rgba(255,255,255,.3) !important;
+}
+
+.nav-item.active > .nav-link {
+    color: #d8c13a !important;
+    background-color: transparent !important;
+    border-bottom: 3px solid rgba(255, 255, 255, .3) !important;
+}
+
+nav .btn {
+    padding: 0.4375rem 1.25rem;
+}
+
+.dropdown-menu {
+    background-color: transparent;
+    color: white !important;
+}
+
+.navbar .dropdown-menu a {
+    color: #f9efc1 !important;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar .dropdown-menu a:hover {
+    color: rgb(224, 205, 97) !important;
+    border-bottom: 3px solid rgba(255,255,255,.3) !important;
+    background-color: transparent;
+}
+
+/* ?MAIN HERO - FULL-WIDTH */
+#main-hero {
+    background-image: url("/img/gk-git-client-hero.jpg");
+    background-size: auto;
+    background-repeat: repeat;
+    background-position: center center;
+    padding-top: 7.75rem;
+    padding-bottom: 3.375rem;
+    color: rgb(249, 239, 193);
+}
+
+#mainLogo {
+    color: #20968b;
+    font-size: 8rem;
+}
+
+#main-hero h1 {
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+#main-hero p {
+    color: #d0d0d2;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    font-size: 1.0625rem;
+}
+
+.btn-primary {
+    background-color: rgba(230, 84, 37, 0.8) !important;
+    border: 1px solid rgb(230, 84, 37) !important;
+    text-transform: none;
+    font-size: 0.9375rem;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: rgb(230, 84, 37) !important;
+}
+
+.btn-primary i {
+    padding-left: 0.5rem;
+}
+
+/* ?BIG-GIF-VIDEO */
+#big-gif-video {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+/* ?EXPERIENCE */
+#experience {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+/* #experience h5 {
+    font-weight: 400;
+} */
+
+#experience p {
+    font-weight: 300;
+}
+
+#exp-quote {
+    padding-top: 0.85rem;
+}
+
+#exp-quote-box {
+    background: #262633;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 2px solid #141422;
+    padding: 1.5rem;
+    margin: 0.5rem;
+    font-size: 0.85rem;
+    max-width: 550px;
+    line-height: 2;
+}
+
+blockquote p {
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+}
+
+.feat-title {
+    margin-top: 2rem;
+}
+
+/* ?BUILT-IN EDITOR */
+#built-in-editor .feat-title {
+    margin-bottom: 1.5rem;
+}
+
+.feat-img {
+    max-height: 150px;
+}
+
+#built-in-editor {
+    padding-top: 2rem;
+}
+
+#built-in-editor h6 {
+    color: #d0d0d2;
+    font-weight: 600;
+    font-size: 1.0625rem;
+    padding-bottom: 1rem;
+}
+
+#built-in-editor p {
+    line-height: 1.7rem;
+    font-size: 1.0625rem;
+    letter-spacing: 0.5px;
+}
+
+#builtInEditor-row {
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
+}
+
+#built-in-editor .feat-img {
+    max-height: 75px;
+}
+
+#built-in-editor .small-feats {
+    margin-top: 7rem;
+}
+
+#built-in-editor .small-feats p {
+    color: #20968b;
+    text-align: center;
+    padding-top: 1.75rem;
+    padding-bottom: 3rem;
+}
+
+.small-feats .col-lg-3 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* ?INTEGRATIONS */
+#integrations {
+    padding-top: 2rem;
+}
+
+#integrations h5 {
+    padding-bottom: 1.75rem;
+}
+
+#integrations p {
+    font-size: 1.0625rem;
+    padding-bottom: 1.25rem;
+    /* color: rgb(249, 239, 193); */
+}
+
+#integrations i {
+    color: #c5eae7;
+    padding-bottom: 0.625rem;
+    font-size: 5rem;
+}
+
+p.int-services {
+    color: rgb(249, 239, 193);
+}
+
+/* ?FLUID WORKFLOW */
+#fluid-workflow {
+    margin-top: 2rem;
+}
+
+#fluid-workflow img {
+    max-height: 150px;
+}
+
+#fluid-workflow .pusher {
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+/* ?TOTAL CONTROL */
+#total-control {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#total-control .feat-img {
+    max-height: 75px;
+}
+
+#total-control p {
+    padding-top: 1.25rem;
+    color: #20968b;
+}
+
+#total-control #tier1 {
+    padding-top: 4rem;
+}
+
+#total-control #tier2 {
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+}
+
+/* ?PRO FEATURES */
+#pro-features {
+    margin-top: 2rem;
+}
+
+#pro-features h2 {
+    font-size: 2.8rem;
+    color: #45c3ec;
+    line-height: 54px;
+}
+
+#pro-features .icyblue {
+    color: #c5eae7;
+    /* Icy blue */
+}
+
+#pro-features p {
+    margin-top: 1.875rem;
+}
+
+#pro-features blockquote p {
+    margin-top: 0;
+}
+
+.btn {
+    padding: 0.6875rem 1.5625rem;
+}
+
+.btn-indigo {
+    background-color: rgba(69, 195, 236, .8) !important;
+    border: 2px solid #45c3ec !important;
+    text-transform: none;
+    color: #141422 !important;
+    font-weight: bold;
+}
+
+.btn-indigo:hover {
+    background-color: #45c3ec !important;
+}
+
+#pro-features .download {
+    font-size: 1.0625rem;
+    line-height: 1.7rem;
+}
+
+#pro-features .download a {
+    color: #f9efc1;
+    border-bottom: .1em solid currentColor;
+    font-weight: 600;
+
+}
+
+/* ?ENTERPRISE FEATURES */
+#enterprise-features {
+    margin-top: 2rem;
+    margin-bottom: 3.25rem;
+}
+
+#enterprise-features h2 {
+    font-size: 2.8rem;
+    color: #69e2b3;
+    line-height: 54px;
+    font-weight: 500;
+}
+
+#enterprise-features .ent-feat-green {
+    color: #c1eadb;
+    margin-top: .775rem;
+}
+
+#enterprise-features p {
+    line-height: 1.7rem;
+    font-size: 1.0625rem;
+}
+
+#enterprise-features .pushdown {
+    margin-top: 6.25rem;
+}
+
+#enterprise-features .p-push p {
+    padding-top: 3.25rem;
+}
+
+#enterprise-features .btn-pink {
+    background-color: rgba(105, 226, 179, .8) !important;
+    border: 2px solid #69e2b3 !important;
+    color: #141422 !important;
+    text-transform: none;
+    font-weight: bold;
+}
+
+#enterprise-features .btn-pink:hover {
+    background-color: #69e2b3 !important;
+}
+
+/* ?FULL-WIDTH FOOTER-HERO/CTA */
+#footer-hero {
+    background-image: url('/img/gk-git-client-hero.jpg');
+}
+
+#footer-hero .row {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+#footer-hero h1 {
+    font-size: 2.8125rem;
+    font-weight: 500;
+    padding-bottom: 2rem;
+    color: #20968b;
+}
+
+#footer-hero h4 {
+    font-size: 1.414rem;
+}
+
+#footer-hero .btn-green {
+    background-color: rgba(230, 84, 37, .8) !important;
+    border: 2px solid #e6542b !important;
+    color: #d6dfdf !important;
+}
+
+#footer-hero .btn-green:hover {
+    background-color: #e6542b !important;
+    color: #141422 !important;
+}
+
+#footer-hero .btn-green h4 {
+    text-transform: none;
+    font-size: 1.414rem;
+    font-weight: 600;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+}
+
+#footer-hero .btn-green p {
+    font-size: .85rem;
+    padding: 0.625rem 0 0 0;
+    margin: 0;
+}
+
+#footer-hero .btn-green i {
+    padding-right: 0.625rem;
+}
+
+#footer-hero .seeAllPlatforms {
+    display: block;
+    color: #e6542b;
+    padding-top: 0.25rem;
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+}
+
+#footer-hero .seeAllPlatforms:hover {
+    color: #d6dfdf;
+}
+
+/* ?FOOTER */
+footer .footer-container {
+    padding-top: 1.5rem;
+    border-top: 3px solid rgb(38, 38, 51);
+}
+
+footer ul {
+    line-height: 1;
+    color: #d0d0d2 !important;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.625rem;
+}
+
+footer ul li {
+    display: inline-block;
+    line-height: 1.7rem;
+}
+
+footer ul .footer-link {
+    color: #f9efc1;
+    /* padding: 1rem 1rem !important; */
+    border-bottom: 3px solid transparent;
+    text-decoration: none;
+    margin-left: 1em;
+    margin-right: 1em;
+    min-height: 30px;
+    padding-bottom: 0.3125rem;
+}
+
+footer ul .footer-link:hover,
+footer ul .footer-link:focus {
+    color: rgb(224, 205, 97) !important;
+    border-bottom: 2px solid #393945;
+}
+
+footer .site-footer-copyright {
+    text-align: center;
+    font-size: 0.70rem;
+    line-height: 1;
+    padding-top: 0.3rem;
+}
+
+footer .site-footer-copyright i {
+    font-size: 1rem;
+    color: #e6542b;
+}
+
+/*------------------------------------*\
+   #TYPOGRAPHY
+/*------------------------------------*/
+/* * Font Stack - Uncomment & Use * */
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+
+section h2,
+section h3,
+section h5,
+section h6 {
+    color: #20968b;
+    font-size: 1.414rem;
+}
+
+h5 {
+    font-weight: 400;
+}
+
+
+
+
+
+/*------------------------------------*\
+   #NAVBAR
+/*------------------------------------*/
+
+/*------------------------------------*\
+   #SECTION-TITLE
+/*------------------------------------*/
+
+/*------------------------------------*\
+   #MEDIA QUERIES
+/*------------------------------------*/
+
+/* Portrait & landscape phone */
+
+@media (max-width: 480px) {}
+
+
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 768px) {}
+
+
+/* Large desktop */
+
+@media (min-width: 1200px) {}
